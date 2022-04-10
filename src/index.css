@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+._card {
+  @apply block p-8 bg-[white] shadow-2xl shadow-clr-blue/20 shadow-xl border-t-4 rounded-md;
+}
+
+._card h2 {
+  @apply text-xl font-semibold text-clr-very-dark-blue;
+}
+
+._card p {
+  @apply text-[15px] text-clr-grayish-blue;
+}
+
+._card img {
+  @apply block ml-auto;
+}
