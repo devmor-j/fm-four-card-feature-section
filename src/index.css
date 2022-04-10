@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 ._card {
-  @apply block p-8 bg-[white] shadow-2xl shadow-clr-blue/20 shadow-xl border-t-4 rounded-md;
+  @apply block p-8 bg-[white] shadow-xl shadow-clr-blue/20 border-t-4 rounded-md;
 }
 
 ._card h2 {
